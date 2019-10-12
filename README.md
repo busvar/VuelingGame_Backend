@@ -8,6 +8,14 @@ HackUPC vueling game
 ```Python
 #pip install Flask
 ```
+- [Numpy](https://scipy.org/install.html#pip-install)
+```Bash
+#python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+```
+- Requests
+```Python
+#pip install requests
+```
 
 ## Running the tests
 
