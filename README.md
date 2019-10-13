@@ -16,6 +16,10 @@ HackUPC vueling game
 ```Python
 #pip install requests
 ```
+- [WebSocket](https://websockets.readthedocs.io/en/stable/intro.html)
+```Python
+#pip install websockets
+```
 
 ## Running the tests
 
@@ -66,6 +70,7 @@ Every version should be named by 3 numbers separed by dots like X.Y.Z
 * **José Ignacio Bustamante** - *Initial work* - [Busvar](https://github.com/busvar)
 * **Marc** - *Initial work* - [Marcazu](https://github.com/marcazu)
 * **Jairo** - *Initial work* - [abyss0one](https://github.com/abyss0one)
+* **Miquel** - *Initial work* - [LordKikkoman](https://github.com/LordKikkoman)
 
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
