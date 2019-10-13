@@ -12,7 +12,7 @@ def hello():
 @app.route('/Simon/generateGame')
 def generateRandomSimonGame():
     colors = np.random.randint(4,size=10)
-    outFile = {"sequence" : colors.tolist()}
+    outFile = {"round" : 1, "sequence" : colors.tolist()}
     return json.dumps(outFile)
 
 
