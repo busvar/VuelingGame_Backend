@@ -70,7 +70,7 @@ async def timerTo0():
     await notify_subState()
 
 def loop_in_thread(loop):
-    if STATE["round"] >= 10:
+    if STATE["round"] > 10:
         return
     asyncio.set_event_loop(loop)
     loop.run_until_complete(timerTo0())
